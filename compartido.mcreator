@@ -1,10 +1,26 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Test",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/compartido/item/TestItem.java",
+          "src/main/resources/assets/compartido/models/item/test.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.compartido.test": "Test"
+    }
   },
   "foldersRoot": {
     "name": "~",
