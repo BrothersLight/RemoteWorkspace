@@ -1,0 +1,29 @@
+{
+  "livingsound_freya": {
+    "subtitle": "subtitles.livingsound_freya",
+    "sounds": [
+      {
+        "name": "compartido:freya_random2",
+        "stream": false
+      }
+    ]
+  },
+  "hurt_sound_freya": {
+    "subtitle": "subtitles.hurt_sound_freya",
+    "sounds": [
+      {
+        "name": "compartido:freya_enojada",
+        "stream": false
+      }
+    ]
+  },
+  "freya_living_sound_2": {
+    "subtitle": "subtitles.freya_living_sound_2",
+    "sounds": [
+      {
+        "name": "compartido:freya_random",
+        "stream": false
+      }
+    ]
+  }
+}

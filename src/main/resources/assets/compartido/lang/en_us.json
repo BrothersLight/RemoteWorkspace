@@ -1,3 +1,12 @@
 {
-  "item.compartido.test": "Test"
+  "entity.compartido.freya": "Freya",
+  "item.compartido.caca": "Caca",
+  "subtitles.freya_living_sound_2": "me muero",
+  "block.compartido.antorcha": "Antorcha",
+  "item.compartido.boladecaca": "Boladecaca",
+  "item.compartido.bezoya": "Bezoya",
+  "item.compartido.lanjaron": "Lanjaron",
+  "subtitles.hurt_sound_freya": "freya desatada",
+  "item.compartido.freya_spawn_egg": "Freya Spawn Egg",
+  "subtitles.livingsound_freya": "Sonidos infernales"
 }

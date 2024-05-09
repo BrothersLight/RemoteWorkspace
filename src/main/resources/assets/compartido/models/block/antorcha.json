@@ -1,0 +1,9 @@
+{
+  "parent": "compartido:custom/modelo_antorcha",
+  "textures": {
+    "all": "compartido:block/texture_antorcha",
+    "particle": "compartido:block/texture_antorcha",
+    "0": "compartido:block/texture_antorcha"
+  },
+  "render_type": "solid"
+}

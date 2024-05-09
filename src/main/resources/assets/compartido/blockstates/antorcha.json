@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "compartido:block/antorcha"
+    },
+    "facing=east": {
+      "model": "compartido:block/antorcha",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "compartido:block/antorcha",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "compartido:block/antorcha",
+      "y": 270
+    }
+  }
+}

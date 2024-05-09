@@ -18,7 +18,10 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.compartido.init.CompartidoModTabs;
+import net.mcreator.compartido.init.CompartidoModSounds;
 import net.mcreator.compartido.init.CompartidoModItems;
+import net.mcreator.compartido.init.CompartidoModEntities;
+import net.mcreator.compartido.init.CompartidoModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -39,8 +42,11 @@ public class CompartidoMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+		CompartidoModSounds.REGISTRY.register(bus);
+		CompartidoModBlocks.REGISTRY.register(bus);
 
 		CompartidoModItems.REGISTRY.register(bus);
+		CompartidoModEntities.REGISTRY.register(bus);
 
 		CompartidoModTabs.REGISTRY.register(bus);
 

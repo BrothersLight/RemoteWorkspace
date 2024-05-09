@@ -3,14 +3,14 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "test",
+    "texture": "boladecaca",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Test",
+    "name": "Boladecaca",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "DECORATIONS"
+      "value": "No creative tab entry"
     },
     "stackSize": 64,
     "enchantability": 0,

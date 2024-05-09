@@ -20,5 +20,17 @@ authors="aguam, MCreator"
     ordering="NONE"
     side="BOTH"
 
+[[dependencies.compartido]]
+    modId="mcreator_link"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
+[[dependencies.compartido]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 

@@ -21,8 +21,14 @@ public class CompartidoModTabs {
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
-			tabData.accept(CompartidoModItems.TEST.get());
+		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+			tabData.accept(CompartidoModBlocks.ANTORCHA.get().asItem());
+		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+			tabData.accept(CompartidoModItems.FREYA_SPAWN_EGG.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+			tabData.accept(CompartidoModItems.BEZOYA.get());
+			tabData.accept(CompartidoModItems.LANJARON.get());
+			tabData.accept(CompartidoModItems.CACA.get());
 		}
 	}
 }

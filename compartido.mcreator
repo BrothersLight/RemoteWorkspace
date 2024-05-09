@@ -1,30 +1,146 @@
 {
   "mod_elements": [
     {
-      "name": "Test",
-      "type": "item",
-      "compiles": true,
+      "name": "Freya",
+      "type": "animatedentity",
+      "sortid": 1,
+      "compiles": false,
       "locked_code": false,
-      "registry_name": "test",
+      "registry_name": "freya",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/compartido/item/TestItem.java",
-          "src/main/resources/assets/compartido/models/item/test.json"
+          "src/main/java/net/mcreator/compartido/client/renderer/FreyaRenderer.java",
+          "src/main/java/net/mcreator/compartido/entity/FreyaEntity.java",
+          "src/main/resources/data/compartido/forge/biome_modifier/freya_biome_modifier.json",
+          "src/main/resources/assets/compartido/models/item/freya_spawn_egg.json",
+          "src/main/java/net/mcreator/compartido/entity/model/FreyaModel.java"
+        ]
+      }
+    },
+    {
+      "name": "Antorcha",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antorcha",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/compartido/blockstates/antorcha.json",
+          "src/main/java/net/mcreator/compartido/block/AntorchaBlock.java",
+          "src/main/resources/data/compartido/loot_tables/blocks/antorcha.json",
+          "src/main/resources/assets/compartido/models/item/antorcha.json",
+          "src/main/resources/assets/compartido/models/block/antorcha.json"
+        ]
+      }
+    },
+    {
+      "name": "Bezoya",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bezoya",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/compartido/item/BezoyaItem.java",
+          "src/main/resources/assets/compartido/models/item/bezoya.json"
+        ]
+      }
+    },
+    {
+      "name": "Lanjaron",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lanjaron",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/compartido/models/item/lanjaron.json",
+          "src/main/java/net/mcreator/compartido/item/LanjaronItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Caca",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/compartido/item/CacaItem.java",
+          "src/main/resources/assets/compartido/models/item/caca.json"
+        ]
+      }
+    },
+    {
+      "name": "Boladecaca",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boladecaca",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/compartido/item/BoladecacaItem.java",
+          "src/main/resources/assets/compartido/models/item/boladecaca.json"
         ]
       }
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "livingsound_freya",
+      "files": [
+        "freya_random2"
+      ],
+      "category": "voice",
+      "subtitle": "Sonidos infernales"
+    },
+    {
+      "name": "hurt_sound_freya",
+      "files": [
+        "freya_enojada"
+      ],
+      "category": "voice",
+      "subtitle": "freya desatada"
+    },
+    {
+      "name": "freya_living_sound_2",
+      "files": [
+        "freya_random"
+      ],
+      "category": "voice",
+      "subtitle": "me muero"
+    }
+  ],
   "tag_elements": {},
   "language_map": {
     "en_us": {
-      "item.compartido.test": "Test"
+      "entity.compartido.freya": "Freya",
+      "item.compartido.caca": "Caca",
+      "subtitles.freya_living_sound_2": "me muero",
+      "block.compartido.antorcha": "Antorcha",
+      "item.compartido.boladecaca": "Boladecaca",
+      "item.compartido.bezoya": "Bezoya",
+      "item.compartido.lanjaron": "Lanjaron",
+      "subtitles.hurt_sound_freya": "freya desatada",
+      "item.compartido.freya_spawn_egg": "Freya Spawn Egg",
+      "subtitles.livingsound_freya": "Sonidos infernales"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Items",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "compartido",
@@ -37,8 +153,12 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "mcreator_link",
+      "geckolib"
+    ],
     "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.compartido"
   },
   "mcreatorVersion": 202400118518
